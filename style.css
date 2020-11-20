@@ -30,20 +30,20 @@ header {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
-    width: 60vw;
+    width: 55vw;
     flex-wrap: wrap;
 }
 
 .col1 {
-    margin: 10px;
+    margin: 6px;
 }
 
 .col2 {
-    margin: 10px;
+    margin: 6px;
 }
 
 .col3 {
-    margin: 10px;
+    margin: 6px;
 }
 
 
@@ -57,23 +57,13 @@ a:hover {
     font-size: 36px; 
 }
 
-a.active {
-    color: gray;
-    background-color: black;
-}
 
 .background {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
     grid-template-rows: center;
-    margin: 5px;
     padding: 10px;
 }
-
-.text {
-    margin: 10px;
-}
-
 
 .col {
     display: flex;
@@ -82,12 +72,11 @@ a.active {
 
 .merchpage {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto), 1fr);
     grid-template-rows: auto;
 }
 
 .lob {
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,11 +87,70 @@ a.active {
     align-items: center;
     justify-content: flex-end;
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .priser {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.group {
+    display: flex;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact2 {
+    display: flex;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: flex;
+}
+
+
+.bas {
+    display: flex;
+    color: lime;
+    align-content: baseline;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.bas :hover {
+    color: lime;
+    font-size: 18px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hummer {
+    text-align: center;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.a2 {
+    color: red;
+    font-size: 20px;
+
+}
+
+.a2:hover {
+    color: black;
+    font-size: 20px;
 }
